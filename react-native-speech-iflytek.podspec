@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
  
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  # spec.ios.vendored_frameworks = 'ios/RctOCRDemo/AipOcrSdk.framework', 'ios/RctOCRDemo/AipBase.framework'
+  spec.ios.vendored_frameworks = 'ios/libs/iflyMSC.framework'
  
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
